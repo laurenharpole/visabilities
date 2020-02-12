@@ -1,0 +1,28 @@
+html {
+  font: 10pt arial;
+  background-color: #121212;
+}
+#mynetwork {
+border: 35px  solid #121212;
+  width: 100vw;
+  overflow: hidden;
+  height: 80vh;
+
+  margin-top: 0;
+
+  background-color: #121212;
+}
+
+img.light {
+  padding-left: 32%;
+  width: 46vw;
+  margin-top: -32%;
+
+}
+
+p.title{
+  color:#a09d9d;
+  line-height: 0.4;
+  padding-left: 10%;
+  text-align: center;
+}
