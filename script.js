@@ -974,7 +974,7 @@ improvedLayout: true,
       borderWidth: 0,
 
       useImageSize: true,
-  
+      shape: 'image',
       fixed: true,
       nodeSpacing: 950,
       padding: 200,
@@ -989,7 +989,8 @@ improvedLayout: true,
       },
       font: { color: "rgb(0,0,0,0 )" },
       shapeProperties: {
-        useBorderWithImage: true
+        useBorderWithImage: true,
+         shape: 'image',
       }
     },
 
