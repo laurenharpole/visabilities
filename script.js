@@ -1,4 +1,4 @@
-var DIR = "img/soft-scraps-icons/";
+
 
 var nodes = null;
 var edges = null;
@@ -9,7 +9,7 @@ var fixed= true;
 function draw() {
   // create people.
   // value corresponds with the age of the person
-  var DIR = "../dist/";
+  var DIR = "";
   nodes = [
     { id: 1, shape: "image", image: DIR + "newsblue.png" ,   label: "11111"},
     { id: 2, shape: "image", image: DIR + "orangeinn.png" ,   label: "2"},
