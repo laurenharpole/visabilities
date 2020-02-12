@@ -985,7 +985,7 @@ improvedLayout: true,
         border: 500,
         level: 60,
 
-        background: "#121212",
+        background: "rgb(0,0,0,0 )",
       },
       font: { color: "rgb(0,0,0,0 )" },
       shapeProperties: {
