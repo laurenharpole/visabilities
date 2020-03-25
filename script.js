@@ -996,7 +996,8 @@ improvedLayout: true,
 
     edges: {
       enabled: false,
-      color: "darkgray",
+      color: "black",
+      opacity: 0.2,
       scaleFactor: 2,
       length: 200,
       min: 4,

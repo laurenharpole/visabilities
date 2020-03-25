@@ -1,28 +1,62 @@
 html {
   font: 10pt arial;
-  background-color: #121212;
+  background-image: linear-gradient(to top, #3e71d1, #3563bc, #2c55a7, #224793, #183a7f, #14316f, #102860, #0c2051, #0c1a42, #0c1433, #0a0c25, #020118);
+
 }
 #mynetwork {
-border: 35px  solid #121212;
-  width: 100vw;
+border: 20px  ;
+  width: 85vw;
+  margin-left: 5%;
   overflow: hidden;
   height: 80vh;
-
+  margin-right: -10%;
   margin-top: 0;
-
-  background-color: #121212;
-}
-
-img.light {
-  padding-left: 32%;
-  width: 46vw;
-  margin-top: -32%;
+  z-index: 4000;
+  margin-bottom: auto;
 
 }
+
 
 p.title{
   color:#a09d9d;
-  line-height: 0.4;
+  line-height: 0.3;
   padding-left: 10%;
   text-align: center;
+}
+
+p.titl{
+  font-family: 'Raleway', sans-serif;
+  color: rgb(255,255,255,0.4);
+  font-size: 3.5vw;
+  margin-left: 10%;
+  margin-right: 5%;
+  margin-top:0vh;
+  font-weight: lighter;
+  padding-bottom: 10vh;
+}
+p.titled{
+
+  /*background: -webkit-linear-gradient(60deg, #2b1c85,#3b1dcb, #721c85,  #991a41, #d82159);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;*/
+ color: black;
+ opacity: 0.6;
+  line-height: 1;
+font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  padding-left: 3%;
+  padding-top: 10%;
+  text-align: center;
+  font-size: 17vw;
+  margin-bottom: -30%;
+
+}
+
+
+
+img.light {
+  margin-left: 25vw;
+  width: 50vw;
+  opacity: 0.6;
+  z-index: -1;
 }
