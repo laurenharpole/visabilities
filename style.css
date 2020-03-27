@@ -1,10 +1,10 @@
+/* 	create the gradient background */
 html {
   font: 10pt arial;
   top: calc(-1 * var(--borderWidth));
   left: calc(-1 * var(--borderWidth));
   height: calc(100% + var(--borderWidth) * 2);
   width: calc(100% + var(--borderWidth) * 2);
-/* 	create the gradiant background */
   background: linear-gradient(60deg, yellow, #f79533, #ef4e7b,  #5073b8, #1098ad, #07b39b, #6fba82, #a7f30b);
   border-radius: calc(2 * var(--borderWidth));
 }
@@ -20,14 +20,6 @@ border: 20px  ;
   margin-top: 0;
   z-index: 4000;
   margin-bottom: auto;
-}
-
-
-p.title{
-  color:#a09d9d;
-  line-height: 0.3;
-  padding-left: 10%;
-  text-align: center;
 }
 
 /* Description and rationale paragraph */
@@ -57,8 +49,8 @@ p.titled{
   font-size: 17vw;
   margin-bottom: -30%;
 }
-/* 
-the light spectrum image */
+
+/* the light spectrum image */
 img.light {
   margin-left: 34vw;
   width: 30vw;
@@ -82,14 +74,8 @@ img.light {
     }
 
 
-    p.title{
-      color:#a09d9d;
-      line-height: 0.3;
-      padding-left: 10%;
-      text-align: center;
-    }
 
-/* Description and rationale paragraph */
+    /* Description and rationale paragraph */
     p.titl{
       font-family: 'Raleway', sans-serif;
       color: rgb(255,255,255,0.5);
@@ -101,7 +87,7 @@ img.light {
       padding-bottom: 10vh;
     }
 
-/* 	  The Visability Project title words */
+    /* 	  The Visability Project title words */
     p.titled{
       background: -webkit-linear-gradient(280deg,  yellow,yellow, #f79533,#f79533,#f79533,#ef4e7b,  #ef4e7b,  #5073b8, #1098ad, #07b39b, #6fba82,#a7f30b,#11f5b6);
       -webkit-background-clip: text;
@@ -117,8 +103,7 @@ img.light {
       margin-bottom: -30%;
     }
 
-/* 
-the light spectrum image */
+    /* the light spectrum image */
     img.light {
       margin-top: -10vh;
       margin-left: 34vw;
